@@ -1,144 +1,230 @@
-.header{position:fixed; 
-        top:0; 
-        left:0; 
-        right:0; 
-        display:in-line; 
-        width:100%;
-        height:40px;
-        background-color:yellow;
-        text-align:center;
-        word-spacing:15px;
-        }
+
+#content {
+            height: auto;
+            /*width: 95%;*/
+            border: 2px solid green;
+            text-align: center;
+            position: relative;
+}
+
+#headercontainer {
+            position: fixed;
+            width: 75%;
+            height: 110px;
+            margin: 20px 10% 0 10%;
+            background-color: lightgreen;
+            border-radius: 100px 0 100px 0;
+            box-shadow: 10px 10px 10px grey;
+            text-align: center;
+            display: block; 
+} 
         
- 
- .header a{
-        display:in-line;
-        color:black;
-        text-decoration:none;
-        text-align:center;
-        }
+#headercontainer a {
+            display: inline-block;
+            color:black;
+            text-decoration: none;
+            margin: 10px 10px 5px 10px;
+}
         
-.header a:hover{color:red;}
+#headercontainer a:hover {
+            color:red;
+}
+        
+.name {
+            display: block;
+            text-align: center;
+            width: 40%;
+            margin: auto;
+            line-height: 10px;
+}
+            
+.about {
+            display: block;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            height: 50px;
+            width: 80%;
+            margin: 200px auto;
+            text-align: center;
+}
+         
+#text1 {
+            float: left;
+            width: 45%;
+            display: block;
+} 
+         
+#text2 {
+            float: right;
+            width: 45%;
+            display: block;
+}
         
 
-        
- .content {position:relative;
-            height:1000px;
-            width:95%;
-            overflow-y:scroll;
+.skills {
+            clear: both;
+            height: auto;
+            width: 95%;
+            margin: auto;            
+}
             
-            border:2px solid green;
-            } 
-        
- .about {text-align:center;
-            width:40%;
-            margin:auto;
-            top: 40px;
-            
-            }
-            
- .me {border-top:2px solid black;
-        border-bottom:2px solid black;
-        top:175px;
-        height:50px;
-        width:80%;
-        margin:auto;
-        text-align:center;
-        }
-            
-  
-            
- #text1 {position:absolute;
-            top:250px;
-         float:left;
-         width:45%;
-         margin-left:40px;
-         } 
-         
-#text2 {position:absolute;
-        top:250px;
-        float:right;
-        margin-left:55%;
-        margin-right:40px;
-        }
-        
+.skilltitle {border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            height: 50px;
+            width: 80%;
+            text-align: center;
+            margin: auto;            
+}
 
-.skills {position:absolute;
-            top:350px;
-            height:200px;
-            width:99%;
-            
-            }
-            
-.skilltitle {border-top:2px solid black;
-            border-bottom:2px solid black;
-            height:50px;
-            width:80%;
-            text-align:center;
-            margin:auto;
-            
-            }
-#skills1 {position:absolute;
-            top:50px;
-         float:left;
-         margin-left:40px;}
+#skills1 {
+            display: block;
+            width: 45%;
+            height: auto;
+            float: left;
+            text-align: left;         
+}
 
-#skills2 {position:absolute;
-            top:50px;
-         float:right;
-         margin-left:50%;}
+#skills2 {
+            display: block;
+            width: 45%;
+            float: right;
+            height: auto;
+            text-align: left;
+}
          
-.projects {position:absolute;
-            top:550px;
-            width:99%;
-            height:200px;
+.projects {
+            clear: both;
+            width: 95%;
+            height: auto;
+            margin: auto;
             
-            }
+}
          
-.projtitle{ border-top:2px solid black;
-            border-bottom:2px solid black;
-            height:50px;
-            width:80%;
-            text-align:center;
-            margin:auto;
-            }
+.projtitle { 
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            height: 50px;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+}
             
-#projects {position:absolute;
-            top:50px;
-         float:left;
-         margin-left:40px;}
+#projects {
+            margin: auto;
+            text-align: left;
+}
          
- .resume {position:absolute;
-            top:750px;
-            width:99%;
-            height:200px;
-           
-            }
+.resume {
+            clear: both;
+            width: 95%;
+            height: auto;
+            margin: auto;
+            text-align: left;
+}
 
-.jobtitle {border-top:2px solid black;
-            border-bottom:2px solid black;
-            width:80%;
-            height:50px;
-            text-align:center;
-            margin:auto;
-            }
-            
-.jobs {float:left;
-        top:35px;
-        }
-        
-.school {position:absolute;
-            top:850px;
-            width:99%;
-            height:200px;
-            border:2px solid orange;
-            }
-            
-.schoolTitle {border-top:2px solid black;
+.jobtitle {
+            border-top:2px solid black;
             border-bottom:2px solid black;
             width:80%;
             height:50px;
             text-align:center;
             margin:auto;
-            }
+}
+            
+.jobs {
+            text-align: left;
+            margin: auto;
+            padding: 10px;
+}
+        
+.school {
+            width: 100%;
+            height: auto;
+}
+            
+.schoolTitle {
+            border-top:2px solid black;
+            border-bottom:2px solid black;
+            width:80%;
+            height:50px;
+            text-align:center;
+            margin:auto;
+}
+
+.schoolPlaces {
+            margin: auto;
+            text-align: left;
+}
+
+#contact {
+            border-top:2px solid black;
+            border-bottom:2px solid black;
+            width:80%;
+            height:50px;
+            text-align:center;
+            margin:auto;
+}
+
+#name {
+            width:500px;
+            height: 30px;
+            display: block;
+            margin: auto;
+            padding: 0;
+}
+
+#email {
+            width:500px;
+            height: 30px;
+            display: block;
+            margin: auto;
+            padding: 0;
+}
+
+#verbage {
+            width:500px;
+            height: 150px;
+            display: block;
+            margin: auto;
+            padding: 0;
+}
+
+#message {
+            width: 600px;
+            height: 300px;
+            margin: auto;
+            background-color: lightgreen;
+}
+
+#footer {
+            width: 75%;
+            height: 110px;
+            margin: 20px auto 20px auto;
+            background-color: lightgreen;
+            border-radius: 100px 0 100px 0;
+            box-shadow: 10px 10px 10px grey;
+            display: block;    
+}
+
+#copyright {
+            float: right;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            /*display: block;*/
+            width: 100px;
+            height: 60px;
+            line-height: 60px;
+            vertical-align: center;
+            text-align: center;
+}
+
+#linked {
+            float: left;
+            margin-left: 100px;
+            width: 100px;
+            height: 90px;
+            line-height: 90px;
+            vertical-align: center;
+            text-align: center;
+}
             
